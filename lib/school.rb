@@ -34,7 +34,7 @@ class School
 
   def sort
     temp = {}
-     @roster.sort_by {|key, val| temp << key.values }
+     @roster.sort_by {|key, val| temp[key] = value }
     temp
 
     #   temp.each do |key, val|
