@@ -34,10 +34,11 @@ class School
 
   def sort
     temp = {}
-     @roster.each do |key, val| 
+     @roster.each do |key, val|
        val.sort do |vals , val| temp[key] = vals
        end
-     end     
+     end
+     temp
     #   temp.each do |key, val|
     #     @final_sort = val.sort_by {|values, value| value}
     #   end
