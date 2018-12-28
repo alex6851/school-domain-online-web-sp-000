@@ -31,7 +31,7 @@ class School
     @grade = grade
     @roster[@grade]
   end
-  
+
   def sort
     temp = @roster.sort_by {|key, val| key }
     temp
