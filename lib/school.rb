@@ -36,7 +36,6 @@ class School
     temp = {}
      @roster.each do |key, val|
       temp[key] = val.sort
-       end
      end
      temp
     #   temp.each do |key, val|
